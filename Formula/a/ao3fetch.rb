@@ -11,6 +11,6 @@ class Ao3fetch < Formula
   end
 
   test do
-    assert_includes shell_output("#{bin}/ao3fetch -version"), "#{version}"
+    assert_includes shell_output("#{bin}/ao3fetch -version"), version
   end
 end
