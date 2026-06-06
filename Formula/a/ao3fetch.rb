@@ -5,9 +5,9 @@ class Ao3fetch < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/legowerewolf/homebrew-tap/releases/download/ao3fetch-2.1.3"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "fdf725230b62af9d385eaf51017adce980b57b75bacb83972b0d428e7fecd338"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "07e7f630889be6fff6789ed3e5ec461f66201253dfcfc63c096b6cfe83532c55"
+    root_url "https://github.com/legowerewolf/homebrew-tap/releases/download/ao3fetch-2.1.4"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "5cc27e26dc2448ef011d3e9b4d27349529314e67bfab92cd0c1e0043f00b4daa"
+    sha256 cellar: :any,                 x86_64_linux:  "7ee26ae951ee02791c6ca947ac82596dff876445b3545f249eae0706272a8e0c"
   end
 
   depends_on "go" => :build
