@@ -1,7 +1,7 @@
 class Ao3fetch < Formula
   desc "Tool for collecting work URLs from AO3 list views"
   homepage "https://github.com/legowerewolf/AO3fetch"
-  url "https://github.com/legowerewolf/AO3fetch.git", tag: "v2.1.9", revision: "559c86e2e90e4600d62287eb1a83baf905f03c2c"
+  url "https://github.com/legowerewolf/AO3fetch.git", tag: "v2.1.10", revision: "41b3b3090b52b03b5475f555ef73f54b09389467"
   license "MIT"
 
   bottle do
